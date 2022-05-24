@@ -1,7 +1,7 @@
 <script setup>
  import AppLayout from '@/Layouts/AppLayout.vue';
  import Pagination from '@/Components/Pagination.vue';
- import { Link } from '@inertiajs/inertia-vue3';
+ import { Link, Head } from '@inertiajs/inertia-vue3';
  import { ref, reactive } from 'vue';
 
  const props = defineProps({
@@ -12,7 +12,7 @@
 </script>
 
 <template>
-    <AppLayout :title="Contacts">
+    <AppLayout title="Contacts">
 
         <template #title>
             Contact

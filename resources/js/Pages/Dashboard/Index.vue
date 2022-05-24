@@ -1,10 +1,13 @@
 <script setup>
   import AppLayout from '@/Layouts/AppLayout.vue';
+  import { Link, Head } from '@inertiajs/inertia-vue3';
+  
+
 </script>
 
 <template>
-  <AppLayout :title="Dashboard">
-    
+  <AppLayout title="Dashboard">
+
       <template #title>
         Dashboard
       </template>
